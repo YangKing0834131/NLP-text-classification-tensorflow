@@ -7,7 +7,7 @@
 [![](https://img.shields.io/badge/gensim-3.2.0-brightgreen.svg)](https://pypi.python.org/pypi/gensim/3.2.0)
 [![](https://img.shields.io/badge/scikit--learn-0.19.1-brightgreen.svg)](https://pypi.python.org/pypi/scikit-learn/0.19.1)
 
-![](image\1.jpg)
+![](image/1.jpg)
 
 ### 赛题背景
 
@@ -88,11 +88,11 @@
 
 （2）计算准确率（P）与召回率（R）
 
-![](image\2.png)
+![](image/2.png)
 
 （3）最终以F1参数作为评分标准
 
-![](image\3.png)
+![](image/3.png)
 
 ## 方案一
 
@@ -114,7 +114,7 @@ cut_all=False会分成词语：“今天”, “星期五”。
 
  对于“今天星期五”这句话：
 
-![](image\4.png)
+![](image/4.png)
 
 #### 3.调用xgboost模型
 
@@ -140,7 +140,7 @@ cut_all=False会分成词语：“今天”, “星期五”。
 
 TextCNN 是利用卷积神经网络对文本进行分类的算法，Convolutional Neural Networks for Sentence Classification(论文)，卷积具有局部特征提取的功能,可用CNN 来提取句子中类似关键信息.
 
-![](image\5.png)
+![](image/5.png)
 
 #### 1.Embedding Layer
 
@@ -150,7 +150,7 @@ TextCNN 是利用卷积神经网络对文本进行分类的算法，Convolutiona
 
 第一纬是批次的大小，第二纬是句子的长度，第三纬是每个词向量的纬度，第四维都是1
 
-![](image\6.png)
+![](image/6.png)
 
 #### 3.Max-Pooling Layer
 
@@ -176,7 +176,7 @@ https://fasttext.cc/docs/en/crawl-vectors.html
 
 > 通过构建的同义词库，对模型结果进行修正
 
-![](C:\Users\zhaojinyang\Documents\GitHub\NLP-text-classification-tensorflow\image\7.png)
+![](image/7.png)
 
 **价格为例**：
 
@@ -204,4 +204,4 @@ https://fasttext.cc/docs/en/crawl-vectors.html
 
 
 
-方案整理的不够详细，如果有什么疑问，可以按照github上邮箱进行联系
+方案整理的不够详细，如果有什么疑问，可以按照github上邮箱(972913434@qq.com)进行联系
