@@ -204,4 +204,4 @@ https://fasttext.cc/docs/en/crawl-vectors.html
 
 
 
-方案整理的不够详细，如果有什么疑问，可以按照github上邮箱(972913434@qq.com)进行联系
+方案整理的不够详细，如果有什么疑问，可以按照github上邮箱进行联系972913434@qq.com
